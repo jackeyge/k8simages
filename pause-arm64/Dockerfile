@@ -9,4 +9,5 @@
 # FROM k8s.gcr.io/metrics-server/metrics-server-arm64:v0.5.2
 # FROM gcr.io/google_containers/metrics-server-arm64:v0.5.2
 # FROM --platform=arm64 k8s.gcr.io/coredns/coredns:v1.8.6
-FROM --platform=arm64 k8s.gcr.io/metrics-server/metrics-server:v0.5.2
+# FROM --platform=arm64 k8s.gcr.io/metrics-server/metrics-server:v0.5.2
+FROM --platform=arm64 k8s.gcr.io/ingress-nginx/controller:v1.2.1
