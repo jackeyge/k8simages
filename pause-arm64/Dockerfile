@@ -13,6 +13,6 @@
 # FROM --platform=arm64 k8s.gcr.io/ingress-nginx/controller:v1.2.1
 # FROM --platform=arm64 k8s.gcr.io/sig-storage/csi-resizer:v1.2.0
 # FROM --platform=arm64 k8s.gcr.io/sig-storage/csi-snapshotter:v4.0.0
-FROM --platform=arm64 k8s.gcr.io/sig-storage/snapshot-controller:v4.0.0
-# FROM --platform=arm64 k8s.gcr.io/sig-storage/csi-provisioner:v3.0.0
+# FROM --platform=arm64 k8s.gcr.io/sig-storage/snapshot-controller:v4.0.0
+FROM --platform=arm64 k8s.gcr.io/sig-storage/csi-provisioner:v3.0.0
 # FROM --platform=arm64 k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.3.0
